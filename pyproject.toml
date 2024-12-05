@@ -1,0 +1,27 @@
+[project]
+name = "hasu-stamina-calc"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "k-shir0", email = "kakishiro2190394@gmail.com" }
+]
+dependencies = [
+    "streamlit>=1.40.2",
+    "matplotlib>=3.9.3",
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hasu_stamina_calc"]
