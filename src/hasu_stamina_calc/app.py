@@ -13,10 +13,10 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.title('スクステスタミナ計算機')
 
 # SIsCa回復(0 ~ 40)
-sica_recover = st.number_input('SIsCa回復(0~40)', value=0, min_value=0, max_value=40)
+sica_recover = st.number_input('SIsCa回復(0~40)', value=6, min_value=0, max_value=40)
 
 # デイリーライブ挑戦回数 0 ~ 24
-daily_challenge_num = st.number_input('デイリーライブ挑戦回数(0~24)', value=0, min_value=0, max_value=24)
+daily_challenge_num = st.number_input('デイリーライブ挑戦回数(0~24)', value=24, min_value=0, max_value=24)
 
 # ラーニングライブキャンペーン なし or 1.5倍 or 2倍
 learning_live_campaign = st.radio('ラーニングライブキャンペーン', ('なし', '1.5倍', '2倍'))
