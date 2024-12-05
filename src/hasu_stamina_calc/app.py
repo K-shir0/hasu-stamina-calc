@@ -45,4 +45,5 @@ elif learning_live_campaign == '1.5倍':
     learning_live_campaign_rate = 1.5
 
 st.write('ラーニング回数: ', stamina // 5)
+st.write('累計ラーニングPt.', stamina // 5 * 5)
 st.write('30Lv -> 50Lv にできる回数: ', ((stamina // 5) * 5) * learning_live_campaign_rate / 5010)
