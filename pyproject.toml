@@ -7,7 +7,6 @@ authors = [
 ]
 dependencies = [
     "streamlit>=1.40.2",
-    "matplotlib>=3.9.3",
 ]
 readme = "README.md"
 requires-python = ">= 3.11"
