@@ -1,5 +1,8 @@
 import streamlit as st
 
+# 充電器のアイコン
+st.set_page_config(page_title="リンクラ スクステスタミナ計算機", page_icon="🔋")
+
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
